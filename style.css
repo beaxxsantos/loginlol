@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
+
+.box-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 27vw;
+    height: 36vw;
+}
+
+.logo {
+    width: 15vw;
+}
+
+input {
+    width: 14vw;
+    height: 3vw;
+    font-size: 1vw;
+}
+
+span {
+    width: 15vw;
+}
+
+span img {
+    width: 1.2vw;
+}
+
+span button {
+    margin: 0.3vw;
+    width: 4vw;
+    height: 1.9vw;
+    border: none;
+    border-radius: 8%;
+}
+
+.facebook {
+    background-color: #2051FF;
+}
+
+.google {
+    background-color: darkred;
+}
+
+.apple {
+    background-color: black;
+}
+
+.login {
+    width: 13.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3vw;
+    font-size: 1.2vw;
+    padding-right: 5vw;
+}
+
+#login {
+    width: 1vw;
+}
+
+.seta {
+    width: 3vw;
+    height: 3vw;
+    background-color: lightpink;
+    border: none;
+    border-radius: 10%;
+}
+
+a {
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.seta img {
+    width: 2.7vw;
+}
+
+.box-two img {
+    width: 75.5vw;
+}
+
+button:hover {
+    cursor: pointer;
+}
